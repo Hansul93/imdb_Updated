@@ -1,0 +1,17 @@
+Manual test case for IMDB search functionality
+
+1. Verify search works with "contains" operator with both link & keywords
+2. Verify minimum search character is 1 & max character should be limited
+3. Verify when the group of characters are not present in the list, then 
+No records found error message should get displayed instantly, rather than going with search 
+click or enter key
+4. Verify user is able to make selection by both keyboard & mouse
+5. Ensure that, as user clears the input the list should be reduced. Once the entire input is
+cleared then the search list should disappear
+6. Ensure user is able to search by both entering the input and by selecting the category
+7. Verify user is able to do advanced search based on both shows & people
+8. Verify whether the search results are displayed by popularity & most viewed
+9. Result table should be able to sort based on Ascending or Descending
+10. Ensure whether the data duplication is avoided
+11. Result count should be displayed along with pagination
+12. See all <count> video, should be visible when the user result is exceeded
